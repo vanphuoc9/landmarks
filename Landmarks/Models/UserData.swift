@@ -12,6 +12,7 @@ import Combine
 final class UserData: ObservableObject {
     @Published var showFavoriteOnly = false
     @Published var landmarks = landmarkData
+    @Published var profile = Profile.default
     
     
 }
