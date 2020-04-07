@@ -45,7 +45,7 @@ struct CategoryHome: View {
                     CategoryRow(categoryName: key, items: self.categories[key]!)
                 }
                 .listRowInsets(EdgeInsets())
-                NavigationLink(destination: LandmarkList()){
+                NavigationLink(destination: LandmarkList{LandmarkDetail(landmark: $0)}){
                     Text("See All")
                 }
             }
@@ -58,6 +58,7 @@ struct CategoryHome: View {
         
     }
 }
+
 
 struct CategoryHome_Previews: PreviewProvider {
     static var previews: some View {

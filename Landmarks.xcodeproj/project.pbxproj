@@ -15,6 +15,8 @@
 		D347AFF8243B06A40078607D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D347AFF7243B06A40078607D /* Preview Assets.xcassets */; };
 		D347AFFB243B06A40078607D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D347AFF9243B06A40078607D /* LaunchScreen.storyboard */; };
 		D347B003243B0BDC0078607D /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D347B002243B0BDC0078607D /* CircleImage.swift */; };
+		D3682177243CBCED001A5821 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37C921E243B273C0079E106 /* LandmarkList.swift */; };
+		D3682178243CBDFA001A5821 /* WatchLandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F3C138243C775D00AAF36B /* WatchLandmarkDetail.swift */; };
 		D37C91FF243B20C50079E106 /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37C91FE243B20C50079E106 /* LandmarkDetail.swift */; };
 		D37C9201243B22160079E106 /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37C9200243B22160079E106 /* LandmarkRow.swift */; };
 		D37C921F243B273C0079E106 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37C921E243B273C0079E106 /* LandmarkList.swift */; };
@@ -92,6 +94,7 @@
 		D3F3C184243C809000AAF36B /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F3C17B243C808F00AAF36B /* UserData.swift */; };
 		D3F3C185243C809000AAF36B /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F3C17C243C809000AAF36B /* Data.swift */; };
 		D3F3C186243C809000AAF36B /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F3C17C243C809000AAF36B /* Data.swift */; };
+		D3F3C189243C845600AAF36B /* WatchMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F3C187243C845600AAF36B /* WatchMapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -202,6 +205,7 @@
 		D3F3C17A243C808F00AAF36B /* Hike.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hike.swift; sourceTree = "<group>"; };
 		D3F3C17B243C808F00AAF36B /* UserData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserData.swift; path = ../../../../../Downloads/CreatingAwatchOSApp/Complete/Landmarks/Landmarks/Models/UserData.swift; sourceTree = "<group>"; };
 		D3F3C17C243C809000AAF36B /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		D3F3C187243C845600AAF36B /* WatchMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchMapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -377,6 +381,7 @@
 				D3F3C111243C74E500AAF36B /* PushNotificationPayload.apns */,
 				D3F3C10D243C74E500AAF36B /* Preview Content */,
 				D3F3C138243C775D00AAF36B /* WatchLandmarkDetail.swift */,
+				D3F3C187243C845600AAF36B /* WatchMapView.swift */,
 			);
 			path = "WatchLandmarks Extension";
 			sourceTree = "<group>";
@@ -582,6 +587,7 @@
 				D3F3C183243C809000AAF36B /* UserData.swift in Sources */,
 				D3F3C01F243C0E7400AAF36B /* CategoryItem.swift in Sources */,
 				D37C921F243B273C0079E106 /* LandmarkList.swift in Sources */,
+				D3682178243CBDFA001A5821 /* WatchLandmarkDetail.swift in Sources */,
 				D3F3C0E9243C615900AAF36B /* PageViewController.swift in Sources */,
 				D3F3C02E243C1DF700AAF36B /* ProfileSummary.swift in Sources */,
 				D3F3C01B243C066B00AAF36B /* Home.swift in Sources */,
@@ -593,8 +599,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D3F3C104243C74E300AAF36B /* HostingController.swift in Sources */,
+				D3F3C189243C845600AAF36B /* WatchMapView.swift in Sources */,
 				D3F3C102243C74E300AAF36B /* ContentView.swift in Sources */,
 				D3F3C108243C74E300AAF36B /* NotificationController.swift in Sources */,
+				D3682177243CBCED001A5821 /* LandmarkList.swift in Sources */,
 				D3F3C13A243C791100AAF36B /* CircleImage.swift in Sources */,
 				D3F3C182243C809000AAF36B /* Hike.swift in Sources */,
 				D3F3C106243C74E300AAF36B /* ExtensionDelegate.swift in Sources */,
