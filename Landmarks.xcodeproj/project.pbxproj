@@ -54,6 +54,7 @@
 		D3F3C0E7243C611800AAF36B /* FeatureCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F3C0E6243C611800AAF36B /* FeatureCard.swift */; };
 		D3F3C0E9243C615900AAF36B /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F3C0E8243C615900AAF36B /* PageViewController.swift */; };
 		D3F3C0EB243C619C00AAF36B /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F3C0EA243C619C00AAF36B /* PageView.swift */; };
+		D3F3C0ED243C6C3D00AAF36B /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F3C0EC243C6C3D00AAF36B /* PageControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -106,6 +107,7 @@
 		D3F3C0E6243C611800AAF36B /* FeatureCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeatureCard.swift; sourceTree = "<group>"; };
 		D3F3C0E8243C615900AAF36B /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		D3F3C0EA243C619C00AAF36B /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
+		D3F3C0EC243C6C3D00AAF36B /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -242,6 +244,7 @@
 				D3F3C0E6243C611800AAF36B /* FeatureCard.swift */,
 				D3F3C0E8243C615900AAF36B /* PageViewController.swift */,
 				D3F3C0EA243C619C00AAF36B /* PageView.swift */,
+				D3F3C0EC243C6C3D00AAF36B /* PageControl.swift */,
 			);
 			path = Page;
 			sourceTree = "<group>";
@@ -356,6 +359,7 @@
 				D37C9201243B22160079E106 /* LandmarkRow.swift in Sources */,
 				D3F3C0E7243C611800AAF36B /* FeatureCard.swift in Sources */,
 				D37C91FF243B20C50079E106 /* LandmarkDetail.swift in Sources */,
+				D3F3C0ED243C6C3D00AAF36B /* PageControl.swift in Sources */,
 				D3F3C01F243C0E7400AAF36B /* CategoryItem.swift in Sources */,
 				D37C921F243B273C0079E106 /* LandmarkList.swift in Sources */,
 				D3F3C0E9243C615900AAF36B /* PageViewController.swift in Sources */,
